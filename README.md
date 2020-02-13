@@ -5,8 +5,11 @@ Esta guía está basanda en el siguiente enlace: https://itnext.io/virtualenv-wi
 
 
 ##Paso 1
+
 Crea una carpeta oculta (o no, según tus preferencias):
 (en bash)>>mkdir .virtualenv
+
+
 ##Paso 2
 Como te habrás dado cuenta, cuando escribes "python" en la bash, python no se ejecutá, en su lugar, sí ejecuta "python3". Debido a esto, instala pip (si no lo tienes instalado):
 (en bash)>>sudo apt install python3-pip
