@@ -36,9 +36,9 @@ Instala el wrapper para usar workon
 
 Verifica los lugares de instalación de ambas aplicaciones:
 
-(en bash)>>which virtualenv
+(A. en bash)>>which virtualenv
 
-(en bash)>>which virtualenvwrapper 
+(B. en bash)>>which virtualenvwrapper 
 
 Norlamente el segundo comando no ejecuta nada ni provee mayor información
 
@@ -64,9 +64,9 @@ export WORKON_HOME=$HOME/.virtualenvs
 
 #esta es la dirección de la carpeta creada en paso 3
 
-export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenvwrapper.sh   
+export VIRTUALENVWRAPPER_VIRTUALENV=/usr/local/bin/virtualenv  
 
-#---->>> esta dirección la provee el paso 5
+#---->>> esta dirección la provee el paso 5.A
 
 source /usr/local/bin/virtualenvwrapper.sh 
 
@@ -75,6 +75,6 @@ Si sale un error de que no encuentra el archivo .sh, busca la dirección como si
 (en bash)>>find / -name virtualenvwrapper.sh
 
 
-##Paso 8
+## Paso 8
 
 Guarda el archivo y abre una nueva terminal. Ahora podras crear entornos virtuales y usar la palabra clave workon <nombre_de_tu_entorno_virtual> para acceder a el (claro, previamente creados, ver: https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html)
